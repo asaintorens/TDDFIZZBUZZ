@@ -8,6 +8,14 @@ public class Jeu {
 		return nombre;
 	}
 
+	public String[] retourner100Premier()
+	{
+		String[] centaines = new String[100];
+		for (int i = 0; i < 100; i++) {
+			centaines[i] = this.Parler(i);
+		}
+		return centaines;
+	}
 	public void setNombre(int nombre) {
 		this.nombre = nombre;
 	}

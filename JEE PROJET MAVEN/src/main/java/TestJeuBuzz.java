@@ -39,10 +39,8 @@ public class TestJeuBuzz {
 	@Test
 	public void test100premier() {
 		Jeu leJeu = new Jeu();
-		
-		for (int i = 0; i < 100; i++) {
-			String mot =leJeu.Parler(i);		
-		}
-		
+		String[] centaine;
+		centaine = leJeu.retourner100Premier();
+		Assert.assertEquals(100, centaine.length);
 	}
 }
