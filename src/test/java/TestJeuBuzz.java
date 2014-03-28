@@ -43,4 +43,9 @@ public class TestJeuBuzz {
 		centaine = leJeu.retourner100Premier();
 		Assert.assertEquals(100, centaine.length);
 	}
+	
+	@Test
+	public void testFAIL() {
+		fail("TAMERE LE FAIL BARBEZ");
+	}
 }
