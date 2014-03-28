@@ -36,4 +36,13 @@ public class TestJeuBuzz {
 		Assert.assertEquals("2", mot);
 	}
 	
+	@Test
+	public void test100premier() {
+		Jeu leJeu = new Jeu();
+		
+		for (int i = 0; i < 100; i++) {
+			String mot =leJeu.Parler(i);		
+		}
+		
+	}
 }

@@ -30,6 +30,8 @@ public class Jeu {
 		
 		if (!modulo3 && !modulo5)
 			res = i+"";
+		
+		System.out.println(res);
 		return res;
 	}
 
